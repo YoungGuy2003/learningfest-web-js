@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #4cd137;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+}
+
+button {
+    background-color: #2f3640; 
+    color: #dfe6e9;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #718093; 
+    color: #2f3640; 
+}
+
+p {
+    color: #dfe6e9; 
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
